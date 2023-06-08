@@ -1,15 +1,30 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <!-- Include the normalize.css file from a CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+        <!-- Include a local CSS file named index.css -->
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <div class="container">
+            <!-- Display a heading -->
             <h1>Row Counter</h1>
+
+            <!-- Display an element with ID "count-el" and initial value 0 -->
             <h2 id="count-el">0</h2>
+
+            <!-- Display a button with ID "increment-btn" and call the "increment()" function when clicked -->
             <button id="increment-btn" onclick="increment()">INCREMENT</button>
+
+            <!-- Display a button with ID "save-btn" and call the "save()" function when clicked -->
             <button id="save-btn" onclick="save()">SAVE</button>
+
+            <!-- Display a paragraph with ID "save-el" for displaying previous entries -->
             <p id="save-el">Previous entries: </p>
         </div>
+
+        <!-- Include a local JavaScript file named index.js -->
         <script src="index.js">
             nnerText
         </script>
